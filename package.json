@@ -2,40 +2,19 @@
   "name": "darkpay-insight-api",
   "description": "A Darkpay blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.4",
-  "repository": "git://github.com/DarkPayCoin/darkpay-insight-api.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DarkPayCoin/darkpay-insight-api.git"
+  },
   "contributors": [
-    {
-      "name": "Gustavo Cortez",
-      "email": "cmgustavo83@gmail.com"
-    },
-    {
-      "name": "Ivan Socolsky",
-      "email": "jungans@gmail.com"
-    },
-    {
-      "name": "Juan Ignacio Sosa Lopez",
-      "email": "bechilandia@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Mario Colque",
-      "email": "colquemario@gmail.com"
-    },
-    {
-      "name": "Patrick Nagurny",
-      "email": "patrick@bitpay.com"
-    },
-    {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
-    }
+    "Gustavo Cortez <cmgustavo83@gmail.com>",
+    "Ivan Socolsky <jungans@gmail.com>",
+    "Juan Ignacio Sosa Lopez <bechilandia@gmail.com>",
+    "Manuel Araoz <manuelaraoz@gmail.com>",
+    "Matias Alejo Garcia <ematiu@gmail.com>",
+    "Mario Colque <colquemario@gmail.com>",
+    "Patrick Nagurny <patrick@bitpay.com>",
+    "Braydon Fuller <braydon@bitpay.com>"
   ],
   "bugs": {
     "url": "https://github.com/DarkPayCoin/darkpay-insight-api/issues"
@@ -61,8 +40,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "darkpay-bitcore-lib": "git://github.com/darkpay/darkpay-bitcore-lib",
-    "darkpay-bitcore-message": "git://github.com/darkpay/darkpay-bitcore-message",
+    "darkpay-bitcore-lib": "git://github.com/DarkPayCoin/darkpay-bitcore-lib.git",
+    "darkpay-bitcore-message": "git://github.com/DarkPayCoin/darkpay-bitcore-message.git",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
@@ -76,5 +55,9 @@
     "proxyquire": "^1.7.2",
     "should": "^8.3.1",
     "sinon": "^1.10.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "darkpay"
 }
